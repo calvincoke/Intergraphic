@@ -1,5 +1,22 @@
 Website Structure:
-
+  Home Page:
+    Home Screen:
+    Title Page: Intergraphic
+    Description
+    Interactive Image
+    
+    Team Introduction:
+    Calvin description 
+    
+    Andrew description
+    
+    Projects Page:
+    3x3 display of graphics with hover over description
+    can be organized by category
+    
+    Contact Us dialog box
+    Footer
+    
 
 
 Timeline- 
