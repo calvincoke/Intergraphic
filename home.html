@@ -12,7 +12,6 @@
     <title>Intergraphic</title>
   </head>
   <body>
-<<<<<<< HEAD
     <p>CalvinCoke is a fag</p>
     <a href="#"></a>
     <table>
@@ -25,7 +24,6 @@
           </td>
         </tr>
     </table>
-=======
     <div>
       <!-- Home Screen -->
     </div>
@@ -35,10 +33,13 @@
 
     <!-- Projects -->
     <h1 style="text-align: center">Projects</h1>
+    <!-- Project Sorting Buttons -->
     <div style="text-align: center">
-      <button type="oddButton" class="btn btn-light" onclick="oddProjects()">Odd</button>
-      <button type="evenButton" class="btn btn-light" onclick="evenProjects()">Even</button>
+      <button type="button" class="btn btn-light" onclick="projects('odd')">Odd</button>
+      <button type="button" class="btn btn-light" onclick="projects('even')">Even</button>
+      <button type="button" class="btn btn-light" onclick="projects('three')">Multiples of Three</button>
     </div>
+    <!-- Project List Cards -->
     <div id="Projects" class="container flex">
       <div class="proj odd" id="myDIV">
         <a href="images/andewit.jpg"><div class="card" style="background: url('images/andewit.jpg') center center/cover"></div>
@@ -46,49 +47,49 @@
           <span class="project-name">Project 1</span>
         </div></a>
       </div>
-      <div class="proj even" style="visibility: visible;">
+      <div class="proj even">
         <a href="images/andewit.jpg"><div class="card" style="background: url('images/andewit.jpg') center center/cover"></div>
         <div class="text">
           <span class="project-name">Project 2</span>
         </div></a>
       </div>
-      <div class="proj odd" style="visibility: visible;">
+      <div class="proj odd three">
         <a href="images/andewit.jpg"><div class="card" style="background: url('images/andewit.jpg') center center/cover"></div>
         <div class="text">
           <span class="project-name">Project 3</span>
         </div></a>
       </div>
-      <div class="proj even" style="visibility: visible;">
+      <div class="proj even">
         <a href="images/andewit.jpg"><div class="card" style="background: url('images/andewit.jpg') center center/cover"></div>
         <div class="text">
           <span class="project-name">Project 4</span>
         </div></a>
       </div>
-      <div class="proj odd" style="visibility: visible;">
+      <div class="proj odd">
         <a href="images/andewit.jpg"><div class="card" style="background: url('images/andewit.jpg') center center/cover"></div>
         <div class="text">
           <span class="project-name">Project 5</span>
         </div></a>
       </div>
-      <div class="proj even" style="visibility: visible;">
+      <div class="proj even three">
         <a href="images/andewit.jpg"><div class="card" style="background: url('images/andewit.jpg') center center/cover"></div>
         <div class="text">
           <span class="project-name">Project 6</span>
         </div></a>
       </div>
-      <div class="proj odd" style="visibility: visible;">
+      <div class="proj odd">
         <a href="images/andewit.jpg"><div class="card" style="background: url('images/andewit.jpg') center center/cover"></div>
         <div class="text">
           <span class="project-name">Project 7</span>
         </div></a>
       </div>
-      <div class="proj even" style="visibility: visible;">
+      <div class="proj even">
         <a href="images/andewit.jpg"><div class="card" style="background: url('images/andewit.jpg') center center/cover"></div>
         <div class="text">
           <span class="project-name">Project 8</span>
         </div></a>
       </div>
-      <div class="proj odd" style="visibility: visible;">
+      <div class="proj odd three">
         <a href="images/andewit.jpg"><div class="card" style="background: url('images/andewit.jpg') center center/cover"></div>
         <div class="text">
           <span class="project-name">Project 9</span>
@@ -102,6 +103,7 @@
 
     <div>
       <!-- Footer -->
+      <!-- Contact US Text Box -->
       <h1 style="text-align: center">Contact Us</h1>
       <form class="contact">
         <input placeholder="Name" type="text" name="name" required  /><br />

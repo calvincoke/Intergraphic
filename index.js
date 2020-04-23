@@ -1,31 +1,42 @@
-function oddProjects(){
+var projState = "none";
 
-
-  var odd = document.getElementsByClassName("even");
-  for (var i=0; i<odd.length; i++){
-    if (odd[i].style.display === "none") {
-      odd[i].style.display = "block";
-    } else {
-      odd[i].style.display = "none";
-    }
+function projects(projtype){
+  var proj = document.getElementsByClassName("proj");
+  var butt =  document.querySelectorAll("button");
+  //reset button color
+  for (var k = 0; k<butt.length ; k++){
+    butt[k].className = "btn btn-light"
   }
 
-  var butt = document.querySelectAll("button")[0];
-  
-  if (butt.getAttribute("class")==="btn btn-light"){
-    butt.setAttribute("class", "btn btn-primary");
+  if(projtype === projState){
+    projState = "none";
+    //Reset/toggle project panel
+    for (var i=0; i<proj.length; i++){
+      proj[i].style.display = "block";
+    }
+
   } else {
-    butt.setAttribute("class", "btn btn-light");
-  }
-}
-
-function evenProjects(){
-  var even = document.getElementsByClassName("odd");
-  for (var i=0; i<even.length; i++){
-    if (even[i].style.display === "none") {
-      even[i].style.display = "block";
-    } else {
-      even[i].style.display = "none";
+    projState = projtype
+    //changing color of button on press
+    switch (projtype) {
+      case "odd":
+        butt[0].className = "btn btn-secondary";
+        break;
+      case "even":
+        butt[1].className = "btn btn-secondary";
+        break;
+      case "three":
+        butt[2].className = "btn btn-secondary";
+        break;
     }
+    //Sorting projects by class type
+    for (var i=0; i<proj.length; i++){
+      if (proj[i].classList.contains(projtype)) {
+        proj[i].style.display = "block";
+      } else {
+        proj[i].style.display = "none";
+      }
+    }
+
   }
 }
