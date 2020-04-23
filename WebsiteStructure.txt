@@ -4,32 +4,38 @@ Website Structure:
     Title Page: Intergraphic
     Description
     Interactive Image
-    
+
     Team Introduction:
-    Calvin description 
-    
+    Calvin description
+
     Andrew description
-    
+
     Projects Page:
     3x3 display of graphics with hover over description
     can be organized by category
-    
+
     Contact Us dialog box
     Footer
-    
 
 
-Timeline- 
+
+Timeline-
 
 Front End:
 
 Wireframing - Monday, April 20
-HTML Coding -
-Thematics wireframing (Color/Themes/Animation) - 
-CSS/Bootstrap/Javascript
+HTML Coding - Tuesday April 21
+Thematics wireframing (Color/Themes/Animation) - Thursday, April 23
+  -Colors, Transition, Divbreaks, Animation
+  -Introductory content and design
+    -Left brain right brain, multiple css
+      -navbar
+  -Footer
+CSS/Bootstrap/Javascript - Not complete
+Full CSS Design + Animation discussion - Monday Tuesday, April 27/28
+User Interface -
 Build Timeline for Backend
 
 Backend:
-
 
 Infographics:
