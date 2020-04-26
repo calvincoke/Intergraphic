@@ -2,7 +2,7 @@ var projState = "none";
 
 function projects(projtype){
   var proj = document.getElementsByClassName("proj");
-  var butt =  document.querySelectorAll("button");
+  var butt =  $("button");
   //reset button color
   for (var k = 0; k<butt.length ; k++){
     butt[k].className = "btn btn-light"
@@ -10,7 +10,7 @@ function projects(projtype){
 
   if(projtype === projState){
     projState = "none";
-    //Reset/toggle project panel
+    //Reset/toggle project panelS
     for (var i=0; i<proj.length; i++){
       proj[i].style.display = "block";
     }
