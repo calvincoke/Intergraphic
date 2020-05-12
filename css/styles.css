@@ -1,3 +1,19 @@
+.home-screen{
+
+  background-color: #48435c;
+height: 1200px;
+max-width: 100%;
+}
+
+
+
+.footer{
+background-color: #48435c;
+position: relative;
+height: 50px;
+clear: both;
+}
+
 section .container {
   box-sizing: border-box;
   max-width: 1200px;
