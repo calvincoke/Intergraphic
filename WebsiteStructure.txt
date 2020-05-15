@@ -29,9 +29,14 @@ Thematics wireframing (Color/Themes/Animation) - Thursday, April 23
   -Colors, Transition, Divbreaks, Animation
   -Introductory content and design
     -Left brain right brain, multiple css
+      -right brain - brainstorming web design bubbles
       -navbar
   -Footer
 CSS/Bootstrap/Javascript - Not complete
+  TODO
+    -Google Fonts
+    -Font Awesome
+    
 Full CSS Design + Animation discussion - Monday Tuesday, April 27/28
 User Interface -
 Build Timeline for Backend
